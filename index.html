@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Pratishtha Sharma — Portfolio</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!--  BOOT SCREEN                                       -->
+<!-- ═══════════════════════════════════════════════════ -->
+<div id="boot-screen">
+  <div class="boot-inner">
+    <div class="boot-logo-row">
+      <div class="win95-flag">
+        <div class="flag-r"></div><div class="flag-g"></div>
+        <div class="flag-b"></div><div class="flag-y"></div>
+      </div>
+      <div class="boot-brand">
+        <div class="boot-title">Microsoft<span>®</span></div>
+        <div class="boot-os">Windows<span class="boot-95">95</span></div>
+      </div>
+    </div>
+    <div class="boot-hr"></div>
+    <div class="boot-progress-wrap">
+      <div class="boot-progress-bar" id="boot-bar"></div>
+    </div>
+    <div class="boot-msg" id="boot-msg">Starting Windows 95…</div>
+    <div class="boot-copy">Copyright © Microsoft Corp 1981–1995. Pratishtha Sharma Edition.</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!--  DESKTOP                                           -->
+<!-- ═══════════════════════════════════════════════════ -->
+<div id="desktop" style="display:none">
+
+  <!-- WALLPAPER: tiled penguin -->
+  <div id="wallpaper"></div>
+
+  <!-- DESKTOP ICONS -->
+  <div class="desktop-icons" id="desktop-icons">
+
+    <div class="dicon" ondblclick="openWin('about')">
+      <div class="dicon-img">👩‍💻</div>
+      <div class="dicon-lbl">About Me</div>
+    </div>
+
+    <div class="dicon" ondblclick="openWin('education')">
+      <div class="dicon-img">🎓</div>
+      <div class="dicon-lbl">Education</div>
+    </div>
+
+    <div class="dicon" ondblclick="openWin('experience')">
+      <div class="dicon-img">💼</div>
+      <div class="dicon-lbl">Experience</div>
+    </div>
+
+    <div class="dicon" ondblclick="openWin('projects')">
+      <div class="dicon-img">📁</div>
+      <div class="dicon-lbl">Projects</div>
+    </div>
+
+    <div class="dicon" ondblclick="openWin('skills')">
+      <div class="dicon-img">🛠️</div>
+      <div class="dicon-lbl">Skills.exe</div>
+    </div>
+
+    <div class="dicon" ondblclick="openWin('achievements')">
+      <div class="dicon-img">🏆</div>
+      <div class="dicon-lbl">Achievements</div>
+    </div>
+
+    <div class="dicon" ondblclick="openWin('contact')">
+      <div class="dicon-img">📧</div>
+      <div class="dicon-lbl">Contact</div>
+    </div>
+
+    <div class="dicon" ondblclick="openWin('snake')">
+      <div class="dicon-img">🐍</div>
+      <div class="dicon-lbl">Snake Game</div>
+    </div>
+
+    <div class="dicon" ondblclick="openWin('notepad')">
+      <div class="dicon-img">📝</div>
+      <div class="dicon-lbl">Resume.txt</div>
+    </div>
+
+    <div class="dicon" id="recyclebin" ondblclick="openWin('recyclebin')">
+      <div class="dicon-img" id="rb-icon">🗑️</div>
+      <div class="dicon-lbl">Recycle Bin</div>
+    </div>
+
+  </div><!-- /desktop-icons -->
+
+  <!-- WINDOWS LAYER -->
+  <div id="win-layer"></div>
+
+  <!-- START MENU -->
+  <div id="start-menu" style="display:none">
+    <div class="sm-sidebar">
+      <div class="sm-sidebar-text">Pratishtha Sharma</div>
+    </div>
+    <div class="sm-items">
+      <div class="sm-item" onclick="openWin('about');closeStart()"><span>👩‍💻</span> About Me</div>
+      <div class="sm-item" onclick="openWin('education');closeStart()"><span>🎓</span> Education</div>
+      <div class="sm-item" onclick="openWin('experience');closeStart()"><span>💼</span> Experience</div>
+      <div class="sm-item" onclick="openWin('projects');closeStart()"><span>📁</span> Projects</div>
+      <div class="sm-item" onclick="openWin('skills');closeStart()"><span>🛠️</span> Skills</div>
+      <div class="sm-item" onclick="openWin('achievements');closeStart()"><span>🏆</span> Achievements</div>
+      <div class="sm-item" onclick="openWin('contact');closeStart()"><span>📧</span> Contact</div>
+      <div class="sm-sep"></div>
+      <div class="sm-item" onclick="openWin('snake');closeStart()"><span>🐍</span> Snake Game</div>
+      <div class="sm-item" onclick="openWin('notepad');closeStart()"><span>📝</span> Resume.txt</div>
+      <div class="sm-sep"></div>
+      <div class="sm-item sm-shutdown" onclick="doShutdown()"><span>⏻</span> Shut Down…</div>
+    </div>
+  </div>
+
+  <!-- TASKBAR -->
+  <div id="taskbar">
+    <button id="start-btn" onclick="toggleStart()">
+      <div class="start-flag">
+        <div class="sf-r"></div><div class="sf-g"></div>
+        <div class="sf-b"></div><div class="sf-y"></div>
+      </div>
+      <span>Start</span>
+    </button>
+    <div id="taskbar-btns"></div>
+    <div id="tray">
+      <span id="tray-clock"></span>
+    </div>
+  </div>
+
+</div><!-- /desktop -->
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!--  SHUTDOWN SCREEN                                   -->
+<!-- ═══════════════════════════════════════════════════ -->
+<div id="shutdown-screen" style="display:none">
+  <div class="sd-box">
+    <div class="sd-title-bar">
+      <img class="sd-icon" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23000080'/%3E%3C/svg%3E" alt="">
+      <span>Shut Down Windows</span>
+    </div>
+    <div class="sd-body">
+      <div class="sd-logo">🖥️</div>
+      <div>
+        <p><strong>Are you sure you want to:</strong></p>
+        <div class="sd-opts">
+          <label><input type="radio" name="sdopt" value="shutdown" checked> Shut down the computer?</label><br>
+          <label><input type="radio" name="sdopt" value="restart"> Restart the computer?</label><br>
+          <label><input type="radio" name="sdopt" value="sleep"> Restart the computer in MS-DOS mode?</label>
+        </div>
+      </div>
+    </div>
+    <div class="sd-btns">
+      <button class="w95-btn" onclick="confirmShutdown()">OK</button>
+      <button class="w95-btn" onclick="cancelShutdown()">Cancel</button>
+      <button class="w95-btn" onclick="cancelShutdown()">Help</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
