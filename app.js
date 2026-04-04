@@ -81,11 +81,10 @@ document.addEventListener('click', () => getAC(), { once: true });
 ───────────────────────────────────────────────────────────── */
 function setWallpaper() {
   const el = document.getElementById('wallpaper');
-  // Use the embedded penguin image tiled with a warm pastel overlay
-  el.style.backgroundImage = `url('data:image/jpeg;base64,${PENGUIN_B64}')`;
-  el.style.backgroundRepeat = 'repeat';
-  el.style.backgroundSize = '220px 220px';
-  el.style.imageRendering = 'auto';
+  el.style.backgroundImage = "url('wallpaper.jpeg')";
+  el.style.backgroundSize = 'cover';
+  el.style.backgroundPosition = 'center';
+  el.style.backgroundRepeat = 'no-repeat';
 }
 
 /* ─────────────────────────────────────────────────────────────
