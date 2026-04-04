@@ -91,8 +91,10 @@ html, body { width: 100%; height: 100%; overflow: hidden; font-family: 'Arial', 
 
 #wallpaper {
   position: absolute; inset: 0;
-  /* penguin wallpaper tiled set via JS */
-  background-color: #008080; /* Win95 teal fallback */
+  background-image: url('wallpaper.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* ─── Desktop Icons ─── */
