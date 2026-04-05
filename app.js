@@ -541,7 +541,7 @@ function contentContact() {
   <div class="w95-section">
     <div class="w95-section-title">📋 Contact Details</div>
     <div class="w95-field"><span class="w95-label">📧 Email:</span><span class="w95-val"><a href="mailto:p.pratishthasharma@gmail.com" style="color:#000080">p.pratishthasharma@gmail.com</a></span></div>
-    <div class="w95-field"><span class="w95-label">📱 Phone:</span><span class="w95-val">+91 88548 64084</span></div>
+
     <div class="w95-field"><span class="w95-label">💼 LinkedIn:</span><span class="w95-val"><a href="https://linkedin.com" target="_blank" style="color:#000080">View Profile →</a></span></div>
     <div class="w95-field"><span class="w95-label">📍 Location:</span><span class="w95-val">Chennai, India (SRMIST KTR)</span></div>
   </div>
@@ -570,9 +570,8 @@ SRMIST KTR | B.Tech CSE | CGPA: 9.05/10
 
 CONTACT
 -------
-Phone   : +91 88548 64084
 Email   : p.pratishthasharma@gmail.com
-LinkedIn: linkedin.com/in/pratishtha
+LinkedIn: www.linkedin.com/in/pratishtha-sharma02
 
 EDUCATION
 ---------
