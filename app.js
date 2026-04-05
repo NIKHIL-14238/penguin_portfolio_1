@@ -571,7 +571,7 @@ SRMIST KTR | B.Tech CSE | CGPA: 9.05/10
 CONTACT
 -------
 Email   : p.pratishthasharma@gmail.com
-LinkedIn: linkedin.com/in/pratishtha
+LinkedIn: www.linkedin.com/in/pratishtha-sharma02
 
 EDUCATION
 ---------
