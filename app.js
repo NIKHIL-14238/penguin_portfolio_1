@@ -541,7 +541,8 @@ function contentContact() {
   <div class="w95-section">
     <div class="w95-section-title">📋 Contact Details</div>
     <div class="w95-field"><span class="w95-label">📧 Email:</span><span class="w95-val"><a href="mailto:p.pratishthasharma@gmail.com" style="color:#000080">p.pratishthasharma@gmail.com</a></span></div>
-    <div class="w95-field"><span class="w95-label">💼 LinkedIn:</span><span class="w95-val"><a href="www.linkedin.com/in/pratishtha-sharma02" target="_blank" style="color:#000080">View Profile →</a></span></div>
+
+    <div class="w95-field"><span class="w95-label">💼 LinkedIn:</span><span class="w95-val"><a href="https://linkedin.com" target="_blank" style="color:#000080">View Profile →</a></span></div>
     <div class="w95-field"><span class="w95-label">📍 Location:</span><span class="w95-val">Chennai, India (SRMIST KTR)</span></div>
   </div>
   <div class="w95-section">
@@ -570,7 +571,7 @@ SRMIST KTR | B.Tech CSE | CGPA: 9.05/10
 CONTACT
 -------
 Email   : p.pratishthasharma@gmail.com
-LinkedIn: www.linkedin.com/in/pratishtha-sharma02
+LinkedIn: linkedin.com/in/pratishtha
 
 EDUCATION
 ---------
