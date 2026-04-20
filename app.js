@@ -335,8 +335,7 @@ function contentAbout() {
     <div class="w95-section-title">💡 About Me</div>
     <p style="font-size:11px;line-height:1.7;color:#222;padding:4px">
   I'm a Computer Science undergrad at SRMIST passionate about building real-world, impactful software. 
-  From winning hackathons with blockchain-powered energy platforms, 
-  I love turning ideas into shipped products. My stack spans React, Node.js, Python, FastAPI, and AI/ML tools.
+  From winning hackathons with blockchain-powered energy platforms, I love turning ideas into shipped products. My stack spans React, Node.js, Python, FastAPI, and AI/ML tools.
   Outside of code, I lead student communities and volunteer for social initiatives. 🐧
 </p>
   </div>
