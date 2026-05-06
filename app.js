@@ -335,7 +335,8 @@ function contentAbout() {
     <div class="w95-section-title">💡 About Me</div>
     <p style="font-size:11px;line-height:1.7;color:#222;padding:4px">
       I'm a Computer Science undergrad at SRMIST passionate about building real-world, impactful software. 
-      From deploying AI pipelines at IIT Delhi to winning hackathons with blockchain-powered energy platforms, 
+      From deploying AI pipelines to being finalist at hackathons , I love turning ideas into shipped products.
+      Working in IIT Delhi I strengthened problem solving , teamwork and technical communication skill. 
       I love turning ideas into shipped products. My stack spans React, Node.js, Python, FastAPI, and AI/ML tools.
       Outside of code, I lead student communities and volunteer for social initiatives. 🐧
     </p>
@@ -508,6 +509,7 @@ function contentAchievements() {
     <table class="w95-table">
       <tr><th>Award</th><th>Details</th></tr>
       <tr><td>🥇 Special Mention</td><td>SuperNova'25 Hackathon, G.L. Bajaj Institute</td></tr>
+      <tr><td>🥇 Finalist at Hacknovate 7.0 , ABES</td></tr>
       <tr><td>📜 Notable Recognition</td><td>IIT-BHU KashiYatra '24 Street Play</td></tr>
       <tr><td>🥈 Debate Runner-Up</td><td>Inter-college debate, Bareilly</td></tr>
       <tr><td>🏅 Treasure Hunt Winner</td><td>SRMIST Delhi-NCR Campus</td></tr>
