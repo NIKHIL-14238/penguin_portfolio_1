@@ -507,6 +507,7 @@ function contentAchievements() {
     <table class="w95-table">
       <tr><th>Award</th><th>Details</th></tr>
       <tr><td>🥇 Special Mention</td><td>SuperNova'25 Hackathon, G.L. Bajaj Institute</td></tr>
+      <tr><td>🥇 Finalist </td><td>at Hacknovate 7.0. Hackathon, ABES Institute</td></tr>
       <tr><td>📜 Notable Recognition</td><td>IIT-BHU KashiYatra '24 Street Play</td></tr>
       <tr><td>🥈 Debate Runner-Up</td><td>Inter-college debate, Bareilly</td></tr>
       <tr><td>🏅 Treasure Hunt Winner</td><td>SRMIST Delhi-NCR Campus</td></tr>
