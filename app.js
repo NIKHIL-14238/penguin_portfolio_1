@@ -343,6 +343,7 @@ function contentAbout() {
     <div class="w95-section-title">🏅 Quick Highlights</div>
     <ul class="w95-list">
       <li>Research Intern at <strong>IIT Delhi</strong> — bioreactor monitoring platform</li>
+      <li>Top 20 Finalist — <strong>Hacknovate 7.0</strong>, ABES</li>
       <li>Special Mention — <strong>SuperNova'25 Hackathon</strong>, GL Bajaj</li>
       <li>Student Convenor, Institution's Innovation Council (IIC), SRMIST</li>
       <li>CGPA <strong>9.09/10</strong> in B.Tech CSE</li>
@@ -356,24 +357,25 @@ function contentEducation() {
   return `
   <div class="w95-section">
     <div class="w95-section-title">🎓 B.Tech — Computer Science and Engineering</div>
-    <div class="w95-field"><span class="w95-label">Institution:</span><span class="w95-val">SRM Institute of Science & Technology, KTR</span></div>
-    <div class="w95-field"><span class="w95-label">Location:</span><span class="w95-val">Chennai, India</span></div>
-    <div class="w95-field"><span class="w95-label">Period:</span><span class="w95-val">2023 – 2027</span></div>
-    <div class="w95-field"><span class="w95-label">CGPA:</span><span class="w95-val" style="color:#000080;font-weight:bold">9.09 / 10</span></div>
+    <div class="w95-field"><span class="w95-label">Institution:</span><span class="w95-val">SRM Institute of Science & Technology, Ghaziabad</span></div>
+    <div class="w95-field"><span class="w95-label">Location:</span><span class="w95-val">Ghaziabad, India</span></div>
+    <div class="w95-field"><span class="w95-label">Period:</span><span class="w95-val">2023 – 2027 (Expected)</span></div>
+    <div class="w95-field"><span class="w95-label">CGPA:</span><span class="w95-val" style="color:#000080;font-weight:bold">9.09 / 10.0</span></div>
+    <div class="w95-field"><span class="w95-label">Coursework:</span><span class="w95-val">Data Structures & Algorithms, Object-Oriented Programming, DBMS, Computer Networks, Operating Systems, Statistical Modeling, Machine Learning</span></div>
   </div>
   <div class="w95-section">
-    <div class="w95-section-title">📚 Class XII — ICSE, PCM + CS</div>
+    <div class="w95-section-title">📚 Class XII — CBSE</div>
     <div class="w95-field"><span class="w95-label">School:</span><span class="w95-val">Shri Gulab Rai Montessori Senior Sec. School</span></div>
     <div class="w95-field"><span class="w95-label">Location:</span><span class="w95-val">Bareilly, India</span></div>
     <div class="w95-field"><span class="w95-label">Year:</span><span class="w95-val">2022</span></div>
-    <div class="w95-field"><span class="w95-label">Score:</span><span class="w95-val">76.2%</span></div>
+    <div class="w95-field"><span class="w95-label">Score:</span><span class="w95-val">76.2% (PCM + CS)</span></div>
   </div>
   <div class="w95-section">
-    <div class="w95-section-title">📚 Class X — CBSE</div>
+    <div class="w95-section-title">📚 Class X — ICSE</div>
     <div class="w95-field"><span class="w95-label">School:</span><span class="w95-val">St. Maria Goretti Inter College</span></div>
     <div class="w95-field"><span class="w95-label">Location:</span><span class="w95-val">Bareilly, India</span></div>
     <div class="w95-field"><span class="w95-label">Year:</span><span class="w95-val">2020</span></div>
-    <div class="w95-field"><span class="w95-label">Score:</span><span class="w95-val" style="color:#000080;font-weight:bold">90.1%</span></div>
+    <div class="w95-field"><span class="w95-label">Score:</span><span class="w95-val" style="color:#000080;font-weight:bold">88%</span></div>
   </div>
   <div class="w95-section">
     <div class="w95-section-title">📜 Certifications</div>
@@ -431,26 +433,14 @@ function contentProjects() {
       emoji: '🤖', name: 'Saarthi AI',
       sub: 'Government Scheme Discovery Platform',
       period: 'Mar 2026',
-      stack: ['Python','FastAPI','NLP','FAISS','RAG'],
+      stack: ['Python','FastAPI','NLP','RAG','Azure OpenAI','REST APIs'],
       color: '#e0f0ff', border: '#000080',
-      github: 'https://github.com/Pratishtha-210/Saarthi-AI',
+      github: 'https://github.com/Pratishtha-210/community-access-platform',
+      live: 'https://saarthiai-rag.vercel.app/',
       bullets: [
-        'AI-powered platform to discover <strong>100+ government welfare schemes</strong> via natural language queries',
-        'Semantic search with Sentence Transformers + FAISS and a RAG pipeline delivering results in <strong>&lt;2 seconds</strong>',
-        'Cloud-deployed interface improving access across fragmented portals'
-      ]
-    },
-    {
-      emoji: '✍️', name: 'Ink & Echoes',
-      sub: 'Social Blogging & Creative Writing Platform',
-      period: 'Oct 2025',
-      stack: ['MongoDB','Express.js','React.js','Node.js'],
-      color: '#ffebee', border: '#b71c1c',
-      github: 'https://github.com/Pratishtha-210/Ink-and-Echoes',
-      bullets: [
-        'Developed a full-stack blogging platform featuring JWT authentication, a rich text markdown editor, and dynamic commenting',
-        'Optimized database queries with MongoDB indexing, reducing dashboard data retrieval latency by <strong>30%</strong>',
-        'Designed a fully responsive retro-modern user interface with interactive search and tag-based filtering'
+        'Created a multilingual AI-powered platform enabling users to explore 60+ government schemes through voice-based interactions across 11 languages',
+        'Designed a Retrieval-Augmented Generation (RAG) pipeline integrating semantic search, intent detection, conversation history, caching, and real-time web enrichment, delivering context-aware responses in under 2 seconds',
+        'Delivered a Progressive Web App (PWA) supporting offline-first functionality with Speech-to-Text (STT) and Text-to-Speech (TTS); optimized backend with multi-layer caching and GZip compression, reducing payload size by approximately 74%'
       ]
     },
     {
@@ -459,23 +449,24 @@ function contentProjects() {
       period: 'May 2025',
       stack: ['React.js','Node.js','Blockchain','Python','ML'],
       color: '#fff8e0', border: '#cc8800',
-      github: 'https://github.com/Pratishtha-210/VoltVex',
+      live: 'https://voltvex.vercel.app/',
       bullets: [
-        'P2P solar energy trading DApp with role-based Producer/Consumer dashboards simulating <strong>50+ smart-contract trades</strong>',
-        'ML-based price prediction with escrow-backed smart contracts, improving pricing accuracy by <strong>30%</strong>'
+        'Established a decentralized peer-to-peer energy trading platform enabling producers to list surplus solar energy and consumers to place bids using blockchain technology',
+        'Crafted Producer and Consumer dashboards with role-specific workflows and an integrated Energy Hub; integrated a Python-based ML price prediction model with escrow-backed smart contract simulation, improving pricing accuracy by approximately 30%',
+        'Simulated 50+ energy trading transactions with virtual metering validation, and built a responsive multi-page React.js application with secure authentication'
       ]
     },
     {
-      emoji: '♻️', name: 'WasteWise',
-      sub: 'Gamified Recycling Platform',
-      period: 'Mar 2025',
-      stack: ['React.js','Node.js','Google Maps API','Razorpay','Arduino IoT'],
-      color: '#e0ffe8', border: '#008000',
-      github: 'https://github.com/Pratishtha-210/WasteWise',
+      emoji: '✍️', name: 'Ink & Echoes',
+      sub: 'Social Blogging & Creative Writing Platform',
+      period: 'Oct 2025',
+      stack: ['MongoDB','Express.js','React.js','Node.js'],
+      color: '#ffebee', border: '#b71c1c',
+      live: 'https://ink-and-echoes-frontend.vercel.app/',
       bullets: [
-        'QR-based gamified recycling with point rewards — <strong>100+ simulated interactions</strong>, 40% engagement boost',
-        'Google Maps API integration with <strong>50+ recycling centres</strong>, 25% navigation time reduction',
-        'Razorpay payment with 95% successful demo transaction rate'
+        'Developed a full-stack blogging platform featuring JWT authentication, a rich text markdown editor, and dynamic commenting',
+        'Optimized database queries with MongoDB indexing, reducing dashboard data retrieval latency by <strong>30%</strong>',
+        'Designed a fully responsive retro-modern user interface with interactive search and tag-based filtering'
       ]
     },
     {
@@ -484,11 +475,23 @@ function contentProjects() {
       period: 'Jul 2024',
       stack: ['Python','OpenCV','NumPy'],
       color: '#f3e5f5', border: '#4a148c',
-      github: 'https://github.com/Pratishtha-210/Invisibility-Cloak',
+      live: 'https://pratishtha-210.github.io/invisibility-cloak/',
       bullets: [
         'Created a real-time computer vision application using OpenCV to segment out a specific color (red/blue) and replace it with a captured background frame',
         'Implemented HSV color space thresholding and morphological operations (dilation/erosion) to eliminate noise and ensure clean edges',
         'Achieved smooth video blending at <strong>30 FPS</strong> with real-time camera integration'
+      ]
+    },
+    {
+      emoji: '♻️', name: 'WasteWise',
+      sub: 'Gamified Recycling Platform',
+      period: 'Mar 2025',
+      stack: ['React.js','Node.js','Google Maps API','Razorpay','Arduino IoT'],
+      color: '#e0ffe8', border: '#008000',
+      bullets: [
+        'QR-based gamified recycling with point rewards — <strong>100+ simulated interactions</strong>, 40% engagement boost',
+        'Google Maps API integration with <strong>50+ recycling centres</strong>, 25% navigation time reduction',
+        'Razorpay payment with 95% successful demo transaction rate'
       ]
     }
   ];
@@ -496,7 +499,8 @@ function contentProjects() {
     <div class="w95-section">
       <div class="w95-section-title">${p.emoji} ${p.name} — ${p.sub}</div>
       <div class="w95-field"><span class="w95-label">Period:</span><span class="w95-val">${p.period}</span></div>
-      ${p.github ? `<div class="w95-field"><span class="w95-label">GitHub:</span><span class="w95-val"><a href="${p.github}" target="_blank" style="color:#000080">${p.github.replace('https://', '')}</a></span></div>` : ''}
+      ${p.github ? `<div class="w95-field"><span class="w95-label">GitHub:</span><span class="w95-val"><a href="${p.github}" target="_blank" style="color:#000080; cursor:pointer; position:relative; z-index:99; pointer-events:auto;">${p.github.replace('https://', '')}</a></span></div>` : ''}
+      ${p.live ? `<div class="w95-field"><span class="w95-label">Live Link:</span><span class="w95-val"><a href="${p.live}" target="_blank" style="color:#000080; cursor:pointer; position:relative; z-index:99; pointer-events:auto;">${p.live.replace('https://', '')}</a></span></div>` : ''}
       <ul class="w95-list" style="margin-top:4px">
         ${p.bullets.map(b => `<li>${b}</li>`).join('')}
       </ul>
@@ -536,10 +540,10 @@ function contentAchievements() {
     <div class="w95-section-title">🏆 Achievements</div>
     <table class="w95-table">
       <tr><th>Award</th><th>Details</th></tr>
-      <tr><td>🥇 Special Mention</td><td>SuperNova'25 Hackathon, G.L. Bajaj Institute</td></tr>
-      <tr><td>🥇 Top 20</td><td>A.B.E.S. Hacknovate 7.0</td></tr>
-      <tr><td>📜 Notable Recognition</td><td>IIT-BHU KashiYatra '24 Street Play</td></tr>
-      <tr><td>🥈 Debate Runner-Up</td><td>Inter-college debate, Bareilly</td></tr>
+      <tr><td>🥇 Top 20 Finalist</td><td>Hacknovate 7.0, ABES</td></tr>
+      <tr><td>🥇 Special Mention</td><td>SuperNova'25, G.L. Bajaj</td></tr>
+      <tr><td>📜 Recognition</td><td>Street Play, IIT-BHU KashiYatra'24</td></tr>
+      <tr><td>🥈 Debate Runner-Up</td><td>Bareilly</td></tr>
       <tr><td>🏅 Treasure Hunt Winner</td><td>SRMIST Delhi-NCR Campus</td></tr>
     </table>
   </div>
@@ -570,10 +574,10 @@ function contentContact() {
   </div>
   <div class="w95-section">
     <div class="w95-section-title">📋 Contact Details</div>
-    <div class="w95-field"><span class="w95-label">📧 Email:</span><span class="w95-val"><a href="mailto:p.pratishthasharma@gmail.com" style="color:#000080">p.pratishthasharma@gmail.com</a></span></div>
+    <div class="w95-field"><span class="w95-label">📧 Email:</span><span class="w95-val"><a href="mailto:p.pratishthasharma@gmail.com" target="_blank" style="color:#000080; cursor:pointer; position:relative; z-index:99; pointer-events:auto;">p.pratishthasharma@gmail.com</a></span></div>
 
-    <div class="w95-field"><span class="w95-label">💼 LinkedIn:</span><span class="w95-val"><a href="https://www.linkedin.com/in/pratishtha-sharma02/" target="_blank" style="color:#000080">View Profile →</a></span></div>
-    <div class="w95-field"><span class="w95-label">📍 Location:</span><span class="w95-val">Chennai, India (SRMIST KTR)</span></div>
+    <div class="w95-field"><span class="w95-label">💼 LinkedIn:</span><span class="w95-val"><a href="https://www.linkedin.com/in/pratishtha-sharma02/" target="_blank" style="color:#000080; cursor:pointer; position:relative; z-index:99; pointer-events:auto;">View Profile →</a></span></div>
+    <div class="w95-field"><span class="w95-label">📍 Location:</span><span class="w95-val">Ghaziabad, India (SRMIST Delhi-NCR)</span></div>
   </div>
   <div class="w95-section">
     <div class="w95-section-title">✉️ Send a Message</div>
@@ -596,87 +600,115 @@ function contentNotepad() {
   return `<textarea class="notepad-area">PRATISHTHA SHARMA — RESUME.TXT
 ============================================================
 Full-Stack Developer | AI/ML Enthusiast | Research Intern
-SRMIST KTR | B.Tech CSE | CGPA: 9.09/10
-
-CONTACT
--------
-Email   : p.pratishthasharma@gmail.com
++91 88548 64084 | p.pratishthasharma@gmail.com | Chennai/Bareilly, India
 LinkedIn: https://www.linkedin.com/in/pratishtha-sharma02/
+GitHub  : https://github.com/Pratishtha-210
 
 EDUCATION
 ---------
-SRM Institute of Science & Technology, KTR
-B.Tech CSE | CGPA: 9.09/10 | 2023 – 2027
+SRM Institute of Science & Technology, Ghaziabad, India
+B.Tech in Computer Science and Engineering
+Expected: 2027 | CGPA: 9.09 / 10.0
+Relevant Coursework: Data Structures & Algorithms, Object-Oriented Programming, DBMS,
+Computer Networks, Operating Systems, Statistical Modeling, Machine Learning
 
-Shri Gulab Rai Montessori Sr. Sec. School
-Class XII – ICSE PCM+CS | 76.2% | 2022
+Shri Gulab Rai Montessori Senior Sec. School, Bareilly, India
+Class XII (CBSE) – PCM+CS | Score: 76.2% | Year: 2022
 
-St. Maria Goretti Inter College
-Class X – CBSE | 90.1% | 2020
+St. Maria Goretti Inter College, Bareilly, India
+Class X (ICSE) – Score: 88% | Year: 2020
 
 EXPERIENCE
 ----------
-Full-Stack Research Intern @ IIT Delhi
-Bioprocessing & Biochemical Engg. Lab
-Dec 2025 – Jan 2026 | Delhi, India
-• Real-time bioreactor monitoring (8+ params) — 35% fewer manual checks
-• Time-series analysis + anomaly detection on 20+ datasets
-• RBAC-secured Recharts dashboards with threshold alerts
+IIT Delhi — Bioprocessing and Biochemical Engineering Laboratory
+Full-Stack Research Intern | Dec 2025 – Jan 2026 | Delhi, India
+• Developed a real-time bioreactor monitoring platform integrating live sensor data
+  to remotely monitor 8+ biochemical parameters, reducing manual laboratory monitoring by ~35%
+• Implemented automated statistical analysis, hypothesis-driven anomaly detection,
+  and a threshold-based alert system for safety-critical parameter breaches, validated
+  across 20+ experimental datasets
+• Architected Role-Based Access Control (RBAC) with API-level authorization for Admin,
+  User, and Viewer roles, improving secure multi-user access by approximately 30%
+• Built responsive data visualization dashboards using React.js and Recharts with LabVIEW-validated
+  sensor signals, improving research data interpretation and usability
 
-Web Development Intern @ Squib Factory Pvt. Ltd.
-May 2025 – Jul 2025 | Remote
-• Canva → production React.js frontend (5+ responsive breakpoints)
-• 6+ reusable UI components | 28% faster page load
+Squib Factory Private Limited, New Delhi, India
+Web Development Intern | May 2025 – Jul 2025
+• Converted high-fidelity Canva UI designs into responsive, production-ready React.js
+  web applications using reusable, modular frontend architecture
+• Engineered reusable React.js components including responsive navigation bars, hero
+  sections, feature modules, and footer components, reducing development effort by ~30%
+• Improved frontend performance through code splitting, image optimization, and CSS
+  cleanup, achieving ~28% faster page loading; performed responsive testing across screen sizes
 
 PROJECTS
 --------
-Saarthi AI – Govt Scheme Discovery (Mar 2026)
-  Python, FastAPI, NLP, FAISS, RAG
-  100+ schemes | <2s response | Cloud-deployed
+Saarthi-AI — Government Scheme Discovery Platform
+Stack: Python, FastAPI, NLP, RAG, Azure OpenAI, REST APIs
+Link : https://saarthiai-rag.vercel.app/
+GitHub: https://github.com/Pratishtha-210/community-access-platform
+• Created a multilingual AI-powered platform enabling users to explore 60+ government schemes
+  through voice-based interactions across 11 languages
+• Designed a Retrieval-Augmented Generation (RAG) pipeline integrating semantic search,
+  intent detection, conversation history, caching, and real-time web enrichment in <2s
+• Delivered a Progressive Web App (PWA) with Speech-to-Text (STT) and Text-to-Speech (TTS),
+  reducing backend payload size by ~74% with multi-layer caching and GZip compression
 
-Ink & Echoes – Social Blogging Platform (Oct 2025)
-  MongoDB, Express.js, React.js, Node.js
-  JWT auth | Rich text editor | Tag filtering
+VoltVex — Decentralized Solar Energy Trading Platform
+Stack: React.js, Node.js, JavaScript, Blockchain, Python
+Link : https://voltvex.vercel.app/
+• Established a decentralized peer-to-peer energy trading platform enabling producers to
+  list surplus solar energy and consumers to place bids using blockchain technology
+• Crafted Producer and Consumer dashboards with role-specific workflows and an integrated
+  Energy Hub; integrated a Python-based ML price prediction model with escrow-backed smart
+  contract simulation, improving pricing accuracy by approximately 30%
+• Simulated 50+ energy trading transactions with virtual metering validation, building a
+  responsive multi-page React.js application with secure authentication
 
-VoltVex – P2P Solar Energy Trading DApp (May 2025)
-  React.js, Node.js, Blockchain, Python, ML
-  50+ smart-contract trades | 30% pricing accuracy boost
+Ink & Echoes — Social Blogging & Creative Writing Platform
+Stack: MongoDB, Express.js, React.js, Node.js
+Link : https://ink-and-echoes-frontend.vercel.app/
+• Developed a full-stack blogging platform featuring JWT authentication, a rich text
+  markdown editor, and dynamic commenting
+• Optimized database queries with MongoDB indexing, reducing dashboard data retrieval
+  latency by 30%
+• Designed a fully responsive retro-modern user interface with interactive search and
+  tag-based filtering
 
-WasteWise – Gamified Recycling Platform (Mar 2025)
-  React.js, Node.js, Google Maps API, Razorpay, Arduino IoT
-  100+ interactions | 40% engagement boost | 50+ recycling centres
+Harry Potter Invisibility Cloak — Computer Vision Magic Cloak
+Stack: Python, OpenCV, NumPy
+Link : https://pratishtha-210.github.io/invisibility-cloak/
+• Created a real-time computer vision application using OpenCV to segment out a specific
+  color (red/blue) and replace it with a captured background frame
+• Implemented HSV color space thresholding and morphological operations (dilation/erosion)
+  to eliminate noise and ensure clean edges
+• Achieved smooth video blending at 30 FPS with real-time camera integration
 
-Harry Potter Invisibility Cloak – CV Magic (Jul 2024)
-  Python, OpenCV, NumPy
-  Real-time color segmentation | HSV thresholding | 30 FPS blending
+WasteWise — Gamified Recycling Platform
+Stack: React.js, Node.js, Google Maps API, Razorpay, Arduino IoT
+• QR-based gamified recycling with point rewards — 100+ simulated interactions, 40%
+  engagement boost
+• Google Maps API integration with 50+ recycling centres, 25% navigation time reduction
+• Razorpay payment with 95% successful demo transaction rate
 
-SKILLS
-------
-Languages  : Java, Python, JavaScript, HTML, CSS, SQL
-Frontend   : React.js, Tailwind CSS, Recharts
-Backend    : Node.js, Express.js, FastAPI
-AI/ML      : NLP, FAISS, Sentence Transformers, RAG
-Databases  : MongoDB, SQL
-Tools      : Git, REST APIs, Google Maps API, Razorpay, LabVIEW, Arduino
-Concepts   : DSA, OOP, RBAC, System Design, Agile
-
-CERTIFICATIONS
---------------
-• HackerRank Java
-• Tutedude MERN Stack
-• Oracle Digital AI
+TECHNICAL SKILLS
+----------------
+Languages   : Python, Java, R, JavaScript, SQL
+AI/NLP      : NLP, RAG, Semantic Search, GenAI & Agent-based Systems
+Frontend    : React.js, HTML5, CSS3, JSX, Tailwind CSS, Responsive Design
+Backend     : Node.js, Express.js, FastAPI, RESTful APIs, RBAC
+Databases   : MongoDB, SQL, Mongoose
+Tools       : Git, GitHub, VS Code, Postman, Arduino, LabVIEW
+Competencies: Data Structures & Algorithms, OOP, DBMS, Computer Networks, Operating Systems,
+              System Design, Agile/Scrum, SDLC
 
 ACHIEVEMENTS & LEADERSHIP
 --------------------------
-• Special Mention – SuperNova'25 Hackathon, G.L. Bajaj
-• Top 20 – A.B.E.S. Hacknovate 7.0
-• Notable Recognition – IIT-BHU KashiYatra '24 Street Play
-• Debate Runner-Up – Bareilly
-• Treasure Hunt Winner – SRMIST Delhi-NCR Campus
-• Student Convenor, IIC – SRMIST
-• Core Team Member, Aarzoo Club – SRMIST
-• Volunteer, Aapke Saath Foundation, Bareilly
-• Volunteer, Hackhound 2.0 – SRMIST
+• Certifications: Oracle Digital AI; HackerRank Java; Tutedude MERN Stack
+• Leadership: Student Convenor, IIC SRMIST | Core Team Member, Aarzoo Club SRMIST
+• Hackathons: Top 20 Finalist – Hacknovate 7.0, ABES | Special Mention – SuperNova'25, GL Bajaj
+• Recognition: Street Play, IIT-BHU KashiYatra'24 | Debate Runner-Up, Bareilly
+• Volunteering: Aapke Saath Foundation, Bareilly | Hackhound 2.0 Hackathon, SRMIST
 
 ============================================================
 Generated by Windows 95 Portfolio v1.0 🐧
